@@ -1,0 +1,10 @@
+pipeline{
+    aagentany
+    stages{
+      stage('helo'){
+        steps{
+            echo 'helo jenkins'
+        }
+      }
+    }
+}
