@@ -1,10 +1,9 @@
 pipeline{
-    aagentany
     stages{
-      stage('helo'){
-        steps{
-            echo 'helo jenkins'
+        stage('hello'){
+            steps{
+                echo 'hello jenkins'
+            }
         }
-      }
     }
 }
